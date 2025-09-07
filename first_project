@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hello LiveOps</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(270deg, #ff416c, #ff4b2b, #1fddff, #28a745);
+      background-size: 800% 800%;
+      animation: gradientShift 15s ease infinite;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    @keyframes gradientShift {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+      text-shadow: 0 0 10px #fff, 0 0 20px #ff6ec7, 0 0 40px #ff6ec7;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #fff, 0 0 10px #ff6ec7; }
+      to { text-shadow: 0 0 20px #fff, 0 0 40px #ff6ec7; }
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello LiveOps</h1>
+  <p>🚀 Empowering the Future of Live Operations</p>
+</body>
+</html>
